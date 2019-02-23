@@ -10,10 +10,16 @@ $(document).ready(function(){
 
 var total = parseInt["Q1+Q2+Q3+Q4+Q5"];
 
-if (total<50) {
+if (total<40) {
     $("#comment1").text('Work harder');
 }
 
-if (total> = 50 && total<80){
+if (total> = 50 && total<90){
     $('#comment2'). text('Nice try');
 }
+
+if (total>=90){
+  $('#comment3').text('Excellent');
+}
+
+$("#display").text('You scored + total +')
