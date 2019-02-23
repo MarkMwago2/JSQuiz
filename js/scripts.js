@@ -1,3 +1,6 @@
+
+
+// user interface
 $(document).ready(function(){
   $("input[type= 'button']").click(function)(){
     var Q1 = parseInt($('input[name = "Q1"]:checked').val());
