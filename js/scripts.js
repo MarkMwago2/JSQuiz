@@ -11,7 +11,9 @@ $(document).ready(function(){
 var total = parseInt["Q1+Q2+Q3+Q4+Q5"];
 
 if (total<50) {
-    $("#comment1").text('Nice try');
+    $("#comment1").text('Work harder');
 }
 
-if 
+if (total> = 50 && total<80){
+    $('#comment2'). text('Nice try');
+}
