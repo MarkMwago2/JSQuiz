@@ -22,4 +22,7 @@ if (total>=90){
   $('#comment3').text('Excellent');
 }
 
-$("#display").text('You scored + total +')
+$("#display").text('You scored + total +');
+
+
+ event.preventDefault();
