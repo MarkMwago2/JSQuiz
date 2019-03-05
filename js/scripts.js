@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
 
-var total = parseInt["Q1+Q2+Q3+Q4+Q5"];
+var total = Q1+Q2+Q3+Q4+Q5;
 
 if (total<40) {
     $("#comment1").text('Work harder');
